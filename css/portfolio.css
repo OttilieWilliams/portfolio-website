@@ -1,0 +1,26 @@
+
+
+.columns {
+  padding-left: 100px;
+  padding-right: 0.6375rem;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*Nav styling: */
+
+.nav-link {
+  color: black;
+}
+
+.site-navigation-wrapper {
+  background-color: #F8E8C6;
+  padding-top: 10px;
+}
+
+.jumbotron {
+  background-color: #F8E8C6;
+}
