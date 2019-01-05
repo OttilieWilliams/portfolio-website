@@ -1,15 +1,4 @@
 
-
-.columns {
-  padding-left: 100px;
-  padding-right: 0.6375rem;
-}
-
-h1 {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
 /*Nav styling: */
 
 .nav-link {
@@ -21,6 +10,33 @@ h1 {
   padding-top: 10px;
 }
 
+/*Jumbotron*/
+
 .jumbotron {
   background-color: #F8E8C6;
+  background-image: url("../images/bunjee-1.jpg"), url("../images/bunjee-2.jpg"), url("../images/bunjee-3.jpg");
+  background-origin: content-box;
+  background-position: left, center, right;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px
+  border: 0px;
+}
+
+.jumbotron-text-wrapper {
+  width: 50%;
+  color: black;
+  background-color: rgba(255, 238, 191, 0.75);
+}
+
+
+/*Headers*/
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-style: Georgia;
+  color: black;
 }
