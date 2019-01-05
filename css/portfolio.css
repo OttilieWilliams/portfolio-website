@@ -6,14 +6,14 @@
 }
 
 .site-navigation-wrapper {
-  background-color: #F8E8C6;
+  background-color: grey;
   padding-top: 10px;
 }
 
 /*Jumbotron*/
 
 .jumbotron {
-  background-color: #F8E8C6;
+  background-color: grey;
   background-image: url("../images/bunjee-1.jpg"), url("../images/bunjee-2.jpg"), url("../images/bunjee-3.jpg");
   background-origin: content-box;
   background-position: left, center, right;
@@ -24,6 +24,8 @@
   padding-right: 100px
   border: 0px;
 }
+
+/*Possible alternative colour for jumbotron: #F8E8C6 */
 
 .jumbotron-text-wrapper {
   width: 50%;
@@ -39,4 +41,9 @@ h1 {
   padding-bottom: 10px;
   font-style: Georgia;
   color: black;
+}
+
+h3 a{
+  color: black;
+  font-size: 22px;
 }
