@@ -47,3 +47,11 @@ h3 a{
   color: black;
   font-size: 22px;
 }
+
+/* Buttons*/
+
+.btn {
+  margin-bottom: 10px;
+  background-color: grey;
+  border: grey;
+}
